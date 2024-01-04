@@ -20,13 +20,23 @@ body{
     grid-template-rows: 20vh 80vh ;
 }
 
-/* body.universe{
+body.universe{
     background-image: url('./assets/mountains-universe02.png');
+}
+
+body.universe #app{
+    place-content: initial;
+    grid-template-rows: 10rem max-content;
 }
 
 body.exploration{
     background-image: url('./assets/mountains-universe-3.png')
-} */
+}
+
+body.exploration #app{
+    place-content: initial;
+    grid-template-rows: 10rem max-content;
+}
 
 nav{
     padding: 4rem 8rem;

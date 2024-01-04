@@ -26,7 +26,5 @@ export class Router {
             .then(html => {
                 document.querySelector("#app").innerHTML = html
             })
-    
-        console.log(route)
     }
 }
