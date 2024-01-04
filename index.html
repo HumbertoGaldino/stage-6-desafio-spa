@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Universo</title>
 </head>
-<body>
+<body class="universe">
     <nav>
-        <a href="/" onclick="route()">Home</a>
-        <a href="/universo" onclick="route()">O Universo</a>
-        <a href="/exploracao" onclick="route()">Exploração</a>
+        <img src="./assets/Vector.svg" alt="">
+        <a href="/" onclick="route(); handleSelect()">Home</a>
+        <a href="/universo" onclick="route(); handleSelect()">O Universo</a>
+        <a href="/exploracao" onclick="route(); handleSelect()">Exploração</a>
     </nav>
 
     <div id="app">
